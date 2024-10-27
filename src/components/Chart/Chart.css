@@ -1,0 +1,50 @@
+.chart-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
+
+.menu-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  top: 10;
+  left: 10;
+  z-index: 1;
+  padding: 2px;
+}
+
+.menu-row {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
+
+.menu-form {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  gap: 2px;
+
+  .form-inputs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input {
+    color: black;
+    background-color: beige;
+  }
+
+  textarea {
+    color: black;
+    background-color: beige;
+  }
+}
